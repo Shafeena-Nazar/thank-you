@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Thank You, Team</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <h1 id="title"></h1>
+  <p class="who"><span id="name"></span> · <span id="tenure"></span></p>
+  <img class="hero-photo" src="images/confianz-team.jpg" alt="The whole company, arms in the air">
+  <p class="intro" id="intro"></p>
+</header>
+
+<main>
+  <section class="tools" aria-label="Jump to a group">
+    <div id="chips" class="chips"></div>
+  </section>
+  <div id="wall"></div>
+
+  <section class="gallery" aria-labelledby="gal-h">
+    <h2 id="gal-h">The gang</h2>
+    <div id="gallery"></div>
+  </section>
+
+  <section class="signoff">
+    <p id="signoff"></p>
+    <div class="actions">
+      <button id="confetti" type="button">Throw confetti</button>
+      <a id="contact" class="link"></a>
+    </div>
+  </section>
+</main>
+<canvas id="cv" aria-hidden="true"></canvas>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
