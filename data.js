@@ -33,7 +33,7 @@ const GROUPS = [
   { id: "mandi", name: "Mandi & tea crews", color: "#FFC93C", cards: [
     { names: "Sreeraj", role: "Mandi partner", photo: "sreeraj.jpg", line: "My mandi partner. Lunch with you was the best break of the day, and it won't taste the same without you. I'm already planning the next one." },
     { names: "Justin", role: "Mandi partner", photo: "justin.jpg", line: "Partner in every mandi plan, and always up for it. Thank you for the food, the laughs and the good company." },
-    { names: "Sajin, Anju, Ancy & Ghanasyam", role: "The tea crew", line: "The best meetings I ever attended had no agenda. Thank you for the tea, the chats and the breaks that kept me going." }
+    { names: "Sajin, Anju, Ancy, Ghanasyam, Rajesh & Midhun Mathew", role: "The tea crew", line: "The best meetings I ever attended had no agenda. Thank you for the tea, the chats and the breaks that kept me going." }
   ]},
   { id: "it", name: "The IT crew", color: "#8FC2FF", cards: [
     { names: "Jose, Vaishakan & Alwin", role: "IT admins", line: "The real heroes behind every \"it's working now.\" Thank you for the quick fixes, the patience, and for never judging my \"I swear I didn't touch anything.\" This place runs because of you." }
