@@ -41,6 +41,10 @@ const GROUPS = [
   { id: "vibes", name: "Office vibes & juniors", color: "#9EE493", cards: [
     { names: "Vishnu Raj & Arun R K", role: "Friends", line: "You brought the office vibes. With you around, the workplace felt like somewhere people wanted to be. Thank you for the energy and the good times." },
     { names: "Rashma, Vishal & Aditya", role: "Juniors, same team", line: "You brought fresh energy to the team every day, and I loved working alongside you. Aditya, thank you for the sisterhood and for keeping my bugs honest. You're all going to do wonderfully, so keep going." }
+  ]},
+  { id: "everyone", name: "And everyone else", color: "#FF8FB1", cards: [
+    { names: "To everyone I couldn't fit on this page", role: "With love, from Shafeena", wide: true,
+      line: "To the colleagues who shared a hello in the corridor, a seat at lunch, a laugh, or a bit of help when I needed it, and to anyone I forgot to name: this list could never hold everyone, but every one of you is part of my story here. Thank you for making this place feel like home." }
   ]}
 ];
 
